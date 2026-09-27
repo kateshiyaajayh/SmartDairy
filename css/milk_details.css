@@ -1,0 +1,188 @@
+.milk-details-page {
+  min-height: calc(100vh - 72px);
+  padding: 40px 32px;
+  background: #f5f7f5;
+}
+
+.milk-details-page .container-fluid {
+  padding: 0;
+}
+
+.page-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.page-heading h1 {
+  margin: 0 0 7px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #203128;
+}
+
+.page-heading p {
+  margin: 0;
+  font-size: 14px;
+  color: #718078;
+}
+
+.back-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 14px;
+  border: 1px solid #dfe6e1;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #526159;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.back-btn:hover {
+  border-color: #b9d7c0;
+  color: #4d8b5a;
+}
+
+.milk-details-panel {
+  padding: 28px;
+  border: 1px solid #e1e7e3;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.record-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 25px;
+  border-bottom: 1px solid #edf1ee;
+}
+
+.record-icon {
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: #edf6ef;
+  color: #4d8b5a;
+  font-size: 21px;
+}
+
+.record-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.record-info h2 {
+  margin: 0;
+  font-size: 21px;
+  font-weight: 700;
+  color: #203128;
+}
+
+.record-info span {
+  font-size: 12px;
+  color: #7a867f;
+}
+
+.session-badge {
+  margin-left: auto;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background: #edf6ef;
+  color: #4d8b5a;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.details-section {
+  padding: 25px 0;
+  border-bottom: 1px solid #edf1ee;
+}
+
+.section-title {
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: 17px;
+  font-weight: 700;
+  color: #203128;
+}
+
+.detail-item {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.detail-item span,
+.record-notes span {
+  font-size: 12px;
+  color: #7a867f;
+}
+
+.detail-item strong {
+  font-size: 14px;
+  font-weight: 600;
+  color: #33443a;
+}
+
+.record-notes p {
+  margin: 7px 0 0;
+  max-width: 800px;
+  font-size: 13px;
+  line-height: 1.7;
+  color: #526159;
+}
+
+.detail-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  padding-top: 25px;
+}
+
+.edit-btn,
+.delete-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  height: 40px;
+  padding: 0 14px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.edit-btn {
+  border: 1px solid #b9d7c0;
+  background: #edf6ef;
+  color: #4d8b5a;
+}
+
+.edit-btn:hover {
+  background: #e2f0e5;
+  color: #3f774b;
+}
+
+.delete-btn {
+  border: 1px solid #efcccc;
+  background: #fff5f5;
+  color: #c94a4a;
+}
+
+.delete-btn:hover {
+  background: #ffeded;
+  color: #b23d3d;
+}

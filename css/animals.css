@@ -1,0 +1,194 @@
+.animals-page {
+  min-height: calc(100vh - 72px);
+  padding: 40px 32px;
+  background: #f5f7f5;
+}
+
+.animals-page .container-fluid {
+  padding: 0;
+}
+
+.page-heading {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+.page-heading h1 {
+  margin: 0 0 7px;
+  font-size: 30px;
+  font-weight: 700;
+  color: #203128;
+}
+
+.page-heading p {
+  margin: 0;
+  font-size: 14px;
+  color: #718078;
+}
+
+.add-animal-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 10px 16px;
+  border-radius: 6px;
+  background: #4d8b5a;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.add-animal-btn:hover {
+  background: #3f774b;
+  color: #ffffff;
+}
+
+.animal-summary {
+  margin-bottom: 34px;
+}
+
+.animal-summary-card {
+  min-height: 88px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid #e1e7e3;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.summary-icon {
+  width: 42px;
+  height: 42px;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+  background: #edf6ef;
+  color: #4d8b5a;
+  font-size: 17px;
+}
+
+.animal-summary-card div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.animal-summary-card span {
+  font-size: 12px;
+  color: #718078;
+}
+
+.animal-summary-card strong {
+  font-size: 22px;
+  font-weight: 700;
+  color: #203128;
+}
+
+.animals-panel {
+  padding: 24px;
+  border: 1px solid #e1e7e3;
+  border-radius: 10px;
+  background: #ffffff;
+}
+
+.animals-panel .panel-heading {
+  margin-bottom: 22px;
+}
+
+.animal-search {
+  position: relative;
+  width: 240px;
+}
+
+.animal-search i {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  color: #8a958e;
+  font-size: 14px;
+}
+
+.animal-search input {
+  width: 100%;
+  height: 38px;
+  padding: 0 12px 0 35px;
+  border: 1px solid #dfe6e1;
+  border-radius: 6px;
+  outline: none;
+  color: #33443a;
+  font-size: 13px;
+}
+
+.animal-search input:focus {
+  border-color: #7eae87;
+  box-shadow: 0 0 0 3px rgba(91, 155, 104, 0.08);
+}
+
+.animals-table {
+  margin: 0;
+}
+
+.animals-table thead th {
+  padding: 12px 15px;
+  border-bottom: 1px solid #dfe6e1;
+  background: #f8faf8;
+  color: #68756d;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.animals-table tbody td {
+  padding: 14px 15px;
+  border-bottom: 1px solid #edf1ee;
+  color: #445149;
+  font-size: 13px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.animals-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.animals-table tbody tr:hover {
+  background: #fafcfb;
+}
+
+.animal-status {
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 4px;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.animal-status.healthy {
+  background: #edf6ef;
+  color: #4d8b5a;
+}
+
+.animal-status.treatment {
+  background: #fff6e8;
+  color: #b87928;
+}
+
+.table-action {
+  color: #4d8b5a;
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.table-action:hover {
+  text-decoration: underline;
+}
