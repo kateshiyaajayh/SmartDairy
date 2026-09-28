@@ -1,0 +1,137 @@
+.profile-page {
+  padding: 40px 0 60px;
+  background: #f7f9f7;
+  min-height: 700px;
+}
+
+.profile-header {
+  margin-bottom: 30px;
+}
+
+.profile-header h1 {
+  margin: 0 0 8px;
+  color: #222;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.profile-header p {
+  margin: 0;
+  color: #777;
+  font-size: 15px;
+}
+
+.profile-card,
+.profile-details-card {
+  background: #fff;
+  border: 1px solid #e3e8e4;
+  border-radius: 12px;
+}
+
+.profile-card {
+  padding: 30px 20px;
+  text-align: center;
+}
+
+.profile-avatar {
+  width: 85px;
+  height: 85px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 17px;
+  border-radius: 50%;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 36px;
+}
+
+.profile-card h2 {
+  margin: 0 0 5px;
+  color: #222;
+  font-size: 21px;
+  font-weight: 600;
+}
+
+.profile-card > p {
+  margin: 0 0 17px;
+  color: #888;
+  font-size: 13px;
+}
+
+.profile-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 11px;
+  border-radius: 20px;
+  background: #e8f6ed;
+  color: #198754;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.profile-details-card {
+  padding: 24px;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0 18px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #edf0ed;
+}
+
+.card-header h2 {
+  margin: 0;
+  color: #222;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.edit-profile-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 38px;
+  padding: 0 14px;
+  border: 1px solid #198754;
+  border-radius: 7px;
+  background: #fff;
+  color: #198754;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.edit-profile-btn:hover {
+  background: #198754;
+  color: #fff;
+}
+
+.profile-details {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.profile-info {
+  padding: 15px;
+  border: 1px solid #edf0ed;
+  border-radius: 8px;
+}
+
+.profile-info span {
+  display: block;
+  margin-bottom: 6px;
+  color: #888;
+  font-size: 11px;
+}
+
+.profile-info strong {
+  display: block;
+  color: #333;
+  font-size: 13px;
+  font-weight: 600;
+}

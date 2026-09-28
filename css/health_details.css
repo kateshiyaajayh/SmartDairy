@@ -1,0 +1,278 @@
+.health-details-page {
+  padding: 40px 0 60px;
+  background: #f7f9f7;
+  min-height: 700px;
+}
+
+.details-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.details-header h1 {
+  margin: 0 0 8px;
+  color: #222;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.details-header p {
+  margin: 0;
+  color: #777;
+  font-size: 15px;
+}
+
+.back-health {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid #d7ddd8;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-health:hover {
+  border-color: #198754;
+  color: #198754;
+}
+
+.details-card {
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #e3e8e4;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.details-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 22px;
+  border-bottom: 1px solid #e8ece9;
+}
+
+.details-card-header h2 {
+  margin: 0;
+  color: #222;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.animal-heading {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.animal-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 9px;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 21px;
+}
+
+.animal-heading h2 {
+  margin: 0 0 4px;
+  color: #222;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.animal-heading span {
+  color: #888;
+  font-size: 12px;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.healthy {
+  background: #e8f6ed;
+  color: #198754;
+}
+
+.details-card-body {
+  padding: 22px;
+}
+
+.details-card-body h3 {
+  margin: 0 0 18px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 18px;
+}
+
+.info-item {
+  padding: 14px;
+  border: 1px solid #e7ebe8;
+  border-radius: 8px;
+  background: #fafbfa;
+}
+
+.info-item span {
+  display: block;
+  margin-bottom: 6px;
+  color: #888;
+  font-size: 12px;
+}
+
+.info-item strong {
+  color: #333;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.details-notes {
+  margin: 0;
+  padding: 15px;
+  border-radius: 8px;
+  background: #f8faf8;
+  color: #666;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.details-actions {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.edit-btn,
+.delete-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 10px 18px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.edit-btn {
+  border: 1px solid #198754;
+  background: #fff;
+  color: #198754;
+}
+
+.edit-btn:hover {
+  background: #198754;
+  color: #fff;
+}
+
+.delete-btn {
+  border: 1px solid #dc3545;
+  background: #fff;
+  color: #dc3545;
+}
+
+.delete-btn:hover {
+  background: #dc3545;
+  color: #fff;
+}
+
+.health-status-card {
+  padding: 25px;
+  margin-bottom: 18px;
+  border: 1px solid #dce9df;
+  border-radius: 12px;
+  background: #fff;
+  text-align: center;
+}
+
+.status-icon {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px;
+  border-radius: 50%;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 24px;
+}
+
+.status-label {
+  display: block;
+  margin-bottom: 7px;
+  color: #888;
+  font-size: 13px;
+}
+
+.health-status-card h2 {
+  margin: 0 0 10px;
+  color: #198754;
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.health-status-card p {
+  margin: 0;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.next-checkup-card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 20px;
+  border: 1px solid #e3e8e4;
+  border-radius: 12px;
+  background: #fff;
+}
+
+.next-checkup-icon {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 19px;
+}
+
+.next-checkup-card span {
+  display: block;
+  margin-bottom: 4px;
+  color: #888;
+  font-size: 12px;
+}
+
+.next-checkup-card strong {
+  color: #222;
+  font-size: 15px;
+  font-weight: 600;
+}

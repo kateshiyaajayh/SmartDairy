@@ -1,0 +1,206 @@
+.health-record-page {
+  padding: 40px 0 60px;
+  background: #f7f9f7;
+  min-height: 700px;
+}
+
+.health-record-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.health-record-header h1 {
+  margin: 0 0 8px;
+  color: #222;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.health-record-header p {
+  margin: 0;
+  color: #777;
+  font-size: 15px;
+}
+
+.back-health {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 18px;
+  border: 1px solid #d7ddd8;
+  border-radius: 8px;
+  background: #fff;
+  color: #333;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.back-health:hover {
+  border-color: #198754;
+  color: #198754;
+}
+
+.record-card {
+  margin-bottom: 20px;
+  background: #fff;
+  border: 1px solid #e3e8e4;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.record-card-header {
+  padding: 19px 22px;
+  border-bottom: 1px solid #e8ece9;
+}
+
+.record-card-header h2 {
+  margin: 0;
+  color: #222;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.record-card-body {
+  padding: 22px;
+}
+
+.form-label {
+  margin-bottom: 7px;
+  color: #333;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.form-control,
+.form-select {
+  min-height: 44px;
+  border-color: #d8ded9;
+  border-radius: 7px;
+  color: #333;
+  font-size: 14px;
+}
+
+textarea.form-control {
+  min-height: auto;
+}
+
+.form-control::placeholder {
+  color: #999;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #198754;
+  box-shadow: 0 0 0 0.15rem rgba(25, 135, 84, 0.12);
+}
+
+.validation-error {
+  display: block;
+  margin-top: 5px;
+  color: #dc3545;
+  font-size: 12px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.cancel-btn,
+.save-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  min-height: 42px;
+  padding: 10px 18px;
+  border-radius: 7px;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.cancel-btn {
+  border: 1px solid #d7ddd8;
+  background: #fff;
+  color: #555;
+}
+
+.cancel-btn:hover {
+  border-color: #999;
+  color: #333;
+}
+
+.save-btn {
+  border: 0;
+  background: #198754;
+  color: #fff;
+}
+
+.save-btn:hover {
+  background: #157347;
+  color: #fff;
+}
+
+.health-info-card {
+  padding: 25px;
+  background: #fff;
+  border: 1px solid #e3e8e4;
+  border-radius: 12px;
+}
+
+.info-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 17px;
+  border-radius: 9px;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 21px;
+}
+
+.health-info-card h3 {
+  margin: 0 0 10px;
+  color: #222;
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.health-info-card > p {
+  margin: 0 0 22px;
+  color: #777;
+  font-size: 13px;
+  line-height: 1.6;
+}
+
+.info-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding-top: 18px;
+  border-top: 1px solid #e8ece9;
+}
+
+.info-list div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.info-list i {
+  color: #198754;
+  font-size: 15px;
+}
+
+.info-list span {
+  color: #555;
+  font-size: 13px;
+}
