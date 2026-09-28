@@ -1,0 +1,256 @@
+.dashboard-row {
+  margin-top: 40px;
+}
+
+.dashboard-card {
+  background: #ffffff;
+  border: 1px solid #e1e8e4;
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+.dashboard-card .card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 20px 22px;
+  background: #ffffff;
+  border-bottom: 1px solid #edf1ef;
+}
+
+.dashboard-card .card-header h2 {
+  margin: 0 0 5px;
+  color: #293630;
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+.dashboard-card .card-header p {
+  margin: 0;
+  color: #7a8580;
+  font-size: 13px;
+  line-height: 1.4;
+}
+
+.view-link {
+  color: #198754;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.view-link:hover {
+  color: #157347;
+}
+
+.dashboard-table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.dashboard-table th {
+  padding: 13px 22px;
+  background: #fafcfb;
+  border-bottom: 1px solid #e5ebe8;
+  color: #68746e;
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.dashboard-table td {
+  padding: 15px 22px;
+  border-bottom: 1px solid #edf1ef;
+  color: #4e5a54;
+  font-size: 13px;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.dashboard-table tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.animal-summary {
+  padding: 8px 22px;
+}
+
+.animal-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 17px 0;
+  border-bottom: 1px solid #edf1ef;
+}
+
+.animal-item:last-child {
+  border-bottom: 0;
+}
+
+.animal-info {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.animal-icon {
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 20px;
+}
+
+.animal-icon > i {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+
+.animal-info strong {
+  display: block;
+  margin-bottom: 3px;
+  color: #35413b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.animal-info small {
+  display: block;
+  color: #87918c;
+  font-size: 12px;
+}
+
+.animal-item > strong {
+  color: #293630;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.order-list {
+  padding: 8px 22px;
+}
+
+.order-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 17px 0;
+  border-bottom: 1px solid #edf1ef;
+}
+
+.order-item:last-child {
+  border-bottom: 0;
+}
+
+.order-item strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #35413b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.order-item span {
+  display: block;
+  color: #87918c;
+  font-size: 12px;
+}
+
+.status-badge {
+  display: inline-block;
+  width: fit-content;
+  margin-top: 5px;
+  padding: 4px 9px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.status-badge.pending {
+  background: #fff3cd;
+  color: #856404;
+}
+
+.status-badge.completed {
+  background: #eaf6ef;
+  color: #198754;
+}
+
+.status-badge.processing {
+  background: #e8f1ff;
+  color: #3569a8;
+}
+
+.activity-list {
+  padding: 8px 22px;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 0;
+  border-bottom: 1px solid #edf1ef;
+  color: inherit;
+  text-decoration: none;
+}
+
+.activity-item:last-child {
+  border-bottom: 0;
+}
+
+.activity-icon {
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: #eaf6ef;
+  color: #198754;
+  font-size: 17px;
+}
+
+.activity-item div {
+  flex: 1;
+}
+
+.activity-item strong {
+  display: block;
+  margin-bottom: 4px;
+  color: #35413b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.activity-item div span {
+  display: block;
+  color: #87918c;
+  font-size: 12px;
+}
+
+.activity-item > i {
+  color: #89938e;
+  font-size: 14px;
+}
+
+.activity-item:hover strong,
+.activity-item:hover > i {
+  color: #198754;
+}

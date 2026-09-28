@@ -74,11 +74,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     );
 
     if ($stmt->execute()) {
-        echo "Registration successful.";
+        header("Location: index.php");
         exit;
     }
-
-    echo "Registration failed.";
 }
 
 ?>

@@ -1,0 +1,101 @@
+.details-card {
+  padding: 26px;
+  border: 1px solid #e1e8e4;
+  border-radius: 9px;
+  background: #ffffff;
+}
+
+.page-header .page-actions {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.edit-btn,
+.delete-btn {
+  display: inline-flex;
+  min-height: 38px;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 0 13px;
+  border: 1px solid #d8e1dc;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #4b5751;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.edit-btn:hover {
+  border-color: #198754;
+  color: #198754;
+}
+
+.delete-btn {
+  border-color: #dc3545;
+  color: #dc3545;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background: #dc3545;
+  color: #ffffff;
+}
+
+.detail-section {
+  padding-bottom: 24px;
+  margin-bottom: 24px;
+  border-bottom: 1px solid #edf1ef;
+}
+
+.detail-section h2 {
+  margin: 0 0 18px;
+  color: #293630;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.detail-item span {
+  display: block;
+  margin-bottom: 6px;
+  color: #74807a;
+  font-size: 12px;
+}
+
+.detail-item strong {
+  color: #35413b;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.notes-section p {
+  margin: 0;
+  color: #4e5a54;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cancel-btn {
+  display: inline-flex;
+  min-height: 40px;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+  padding: 0 14px;
+  border: 1px solid #d8e1dc;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #4b5751;
+  font-size: 13px;
+  text-decoration: none;
+}
+
+.cancel-btn:hover {
+  border-color: #198754;
+  color: #198754;
+}

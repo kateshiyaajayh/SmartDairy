@@ -1,0 +1,13 @@
+.admin-footer {
+  margin-left: 250px;
+  padding: 18px 25px;
+  background: #ffffff;
+  border-top: 1px solid #e1e8e4;
+}
+
+.admin-footer p {
+  margin: 0;
+  color: #74807a;
+  font-size: 13px;
+  text-align: center;
+}

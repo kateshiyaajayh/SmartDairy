@@ -1,0 +1,155 @@
+.admin-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: #ffffff;
+  border-bottom: 1px solid #e1e8e4;
+}
+
+.admin-header .navbar {
+  min-height: 70px;
+  padding: 0 25px;
+}
+
+.admin-header .container-fluid {
+  padding: 0;
+}
+
+.admin-header-left,
+.admin-header-right {
+  display: flex;
+  align-items: center;
+}
+
+.admin-header-left {
+  gap: 18px;
+}
+
+.admin-header-right {
+  gap: 18px;
+}
+
+.sidebar-toggle {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #dce5e0;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #44514b;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.sidebar-toggle:hover {
+  border-color: #198754;
+  color: #198754;
+}
+
+.admin-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.admin-brand img {
+  width: 135px;
+  height: auto;
+  display: block;
+}
+
+.notification-btn {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  background: transparent;
+  color: #46534d;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.notification-btn:hover {
+  color: #198754;
+}
+
+.notification-dot {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #dc3545;
+  border: 1px solid #ffffff;
+}
+
+.admin-user-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border: 1px solid #d8e2dd;
+  border-radius: 6px;
+  background: #ffffff;
+  color: #39453f;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.admin-user-btn:hover,
+.admin-user-btn:focus {
+  border-color: #198754;
+  color: #198754;
+  background: #ffffff;
+}
+
+.admin-user-btn::after {
+  margin-left: 4px;
+}
+
+.admin-user-btn i {
+  font-size: 18px;
+}
+
+.admin-user .dropdown-menu {
+  min-width: 180px;
+  margin-top: 8px;
+  padding: 6px;
+  border: 1px solid #e1e8e4;
+  border-radius: 8px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.08);
+}
+
+.admin-user .dropdown-item {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 10px;
+  border-radius: 5px;
+  color: #46534d;
+  font-size: 14px;
+}
+
+.admin-user .dropdown-item:hover {
+  background: #eaf6ef;
+  color: #198754;
+}
+
+.admin-user .dropdown-item i {
+  font-size: 16px;
+}
+
+.admin-user .logout-link {
+  color: #dc3545;
+}
+
+.admin-user .logout-link:hover {
+  background: #fff0f0;
+  color: #dc3545;
+}
