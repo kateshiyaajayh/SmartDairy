@@ -1,7 +1,5 @@
 <?php
-
-session_start();
-
+require_once __DIR__ . "/includes/admin_auth.php";
 ?>
 
 <!DOCTYPE html>
@@ -86,7 +84,7 @@ session_start();
 
                 <div class="col-md-6 col-xl-3">
                     <div class="summary-card">
-                        <span class="summary-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7 6.5 3.5 4.5 4M16 7l1.5-3.5 2 0.5M7 8 3.5 7l2 4M17 8l3.5-1-2 4"/><path d="M7 8c-1.2.8-2 2-2 3.5v2c0 4.2 2.7 7 7 7s7-2.8 7-7v-2c0-1.5-.8-2.7-2-3.5-2.5-1.5-7.5-1.5-10 0Z"/><path d="M9 12h.01M15 12h.01M9 16c1.7 1.2 4.3 1.2 6 0"/></svg></span>
+                        <span class="summary-icon"><i class="bi bi-droplet-fill"></i></span>
                         <div><span>Cows</span>
                             <h2>286</h2>
                         </div>
@@ -95,7 +93,7 @@ session_start();
 
                 <div class="col-md-6 col-xl-3">
                     <div class="summary-card">
-                        <span class="summary-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7C5.5 6 3.8 3.4 4.5 2.5 7 2.5 9 4 10 6M16 7c2.5-1 4.2-3.6 3.5-4.5C17 2.5 15 4 14 6"/><path d="M7 8c-1.2.8-2 2-2 3.5v2c0 4.2 2.7 7 7 7s7-2.8 7-7v-2c0-1.5-.8-2.7-2-3.5-2.5-1.5-7.5-1.5-10 0Z"/><path d="M9 12h.01M15 12h.01M8 16c2 1.4 6 1.4 8 0"/></svg></span>
+                        <span class="summary-icon"><i class="bi bi-water"></i></span>
                         <div><span>Buffaloes</span>
                             <h2>196</h2>
                         </div>
@@ -167,7 +165,7 @@ session_start();
                         <tbody>
                             <tr data-search="AN-001 cow rajesh patel gir jersey female healthy" data-type="cow" data-status="healthy">
                                 <td>
-                                    <div class="animal-name"><span class="animal-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7 6.5 3.5 4.5 4M16 7l1.5-3.5 2 0.5M7 8 3.5 7l2 4M17 8l3.5-1-2 4"/><path d="M7 8c-1.2.8-2 2-2 3.5v2c0 4.2 2.7 7 7 7s7-2.8 7-7v-2c0-1.5-.8-2.7-2-3.5-2.5-1.5-7.5-1.5-10 0Z"/><path d="M9 12h.01M15 12h.01M9 16c1.7 1.2 4.3 1.2 6 0"/></svg></span><strong>Gauri</strong></div>
+                                    <div class="animal-name"><span class="animal-icon"><i class="bi bi-droplet-fill"></i></span><strong>Gauri</strong></div>
                                 </td>
                                 <td>AN-001</td>
                                 <td>Cow</td>
@@ -180,7 +178,7 @@ session_start();
 
                             <tr data-search="AN-002 buffalo mehul shah murrah female under treatment" data-type="buffalo" data-status="under-treatment">
                                 <td>
-                                    <div class="animal-name"><span class="animal-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7C5.5 6 3.8 3.4 4.5 2.5 7 2.5 9 4 10 6M16 7c2.5-1 4.2-3.6 3.5-4.5C17 2.5 15 4 14 6"/><path d="M7 8c-1.2.8-2 2-2 3.5v2c0 4.2 2.7 7 7 7s7-2.8 7-7v-2c0-1.5-.8-2.7-2-3.5-2.5-1.5-7.5-1.5-10 0Z"/><path d="M9 12h.01M15 12h.01M8 16c2 1.4 6 1.4 8 0"/></svg></span><strong>Rani</strong></div>
+                                    <div class="animal-name"><span class="animal-icon"><i class="bi bi-water"></i></span><strong>Rani</strong></div>
                                 </td>
                                 <td>AN-002</td>
                                 <td>Buffalo</td>
@@ -193,7 +191,7 @@ session_start();
 
                             <tr data-search="AN-003 cow kiran joshi sahiwal female vaccination due" data-type="cow" data-status="vaccination-due">
                                 <td>
-                                    <div class="animal-name"><span class="animal-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7 6.5 3.5 4.5 4M16 7l1.5-3.5 2 0.5M7 8 3.5 7l2 4M17 8l3.5-1-2 4"/><path d="M7 8c-1.2.8-2 2-2 3.5v2c0 4.2 2.7 7 7 7s7-2.8 7-7v-2c0-1.5-.8-2.7-2-3.5-2.5-1.5-7.5-1.5-10 0Z"/><path d="M9 12h.01M15 12h.01M9 16c1.7 1.2 4.3 1.2 6 0"/></svg></span><strong>Kamdhenu</strong></div>
+                                    <div class="animal-name"><span class="animal-icon"><i class="bi bi-droplet-fill"></i></span><strong>Kamdhenu</strong></div>
                                 </td>
                                 <td>AN-003</td>
                                 <td>Cow</td>
@@ -206,7 +204,7 @@ session_start();
 
                             <tr data-search="AN-004 buffalo amit parmar jaffarabadi male checkup due" data-type="buffalo" data-status="checkup-due">
                                 <td>
-                                    <div class="animal-name"><span class="animal-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 7C5.5 6 3.8 3.4 4.5 2.5 7 2.5 9 4 10 6M16 7c2.5-1 4.2-3.6 3.5-4.5C17 2.5 15 4 14 6"/><path d="M7 8c-1.2.8-2 2-2 3.5v2c0 4.2 2.7 7 7 7s7-2.8 7-7v-2c0-1.5-.8-2.7-2-3.5-2.5-1.5-7.5-1.5-10 0Z"/><path d="M9 12h.01M15 12h.01M8 16c2 1.4 6 1.4 8 0"/></svg></span><strong>Moti</strong></div>
+                                    <div class="animal-name"><span class="animal-icon"><i class="bi bi-water"></i></span><strong>Moti</strong></div>
                                 </td>
                                 <td>AN-004</td>
                                 <td>Buffalo</td>

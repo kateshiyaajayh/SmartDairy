@@ -2,6 +2,14 @@
 
 session_start();
 
+if (isset($_SESSION["admin_id"])) {
+    header("Location: admin_index.php");
+    exit;
+}
+
+$loginError = $_SESSION["admin_login_error"] ?? "";
+unset($_SESSION["admin_login_error"]);
+
 ?>
 
 <!DOCTYPE html>
@@ -57,8 +65,15 @@ session_start();
 
             </div>
 
+            <?php if ($loginError !== ""): ?>
+                <div class="alert alert-danger py-2" role="alert">
+                    <?= htmlspecialchars($loginError, ENT_QUOTES, "UTF-8") ?>
+                </div>
+            <?php endif; ?>
+
             <form
                 method="POST"
+                action="admin_login_process.php"
                 id="adminLoginForm">
 
                 <div class="mb-3">

@@ -1,7 +1,5 @@
 <?php
-
-session_start();
-
+require_once __DIR__ . "/includes/admin_auth.php";
 ?>
 
 <!DOCTYPE html>
@@ -23,7 +21,15 @@ session_start();
     <?php include "includes/admin_sidebar.php"; ?>
     <main class="admin-page">
         <div class="container-fluid">
-            <div class="page-header"><div><h1>Schemes</h1><p>Review government and dairy schemes available to farmers.</p></div></div>
+            <div class="page-header">
+                <div>
+                    <h1>Schemes</h1>
+                    <p>Review government and dairy schemes available to farmers.</p>
+                </div>
+                <a href="admin_add_scheme.php" class="btn btn-success">
+                    <i class="bi bi-plus-lg"></i> Add Scheme
+                </a>
+            </div>
             <div class="row g-4 module-summary">
                 <div class="col-md-6 col-xl-3"><div class="summary-card"><span class="summary-icon"><i class="bi bi-file-earmark-text"></i></span><div><span>Total Schemes</span><h2>24</h2></div></div></div>
                 <div class="col-md-6 col-xl-3"><div class="summary-card"><span class="summary-icon"><i class="bi bi-unlock"></i></span><div><span>Open</span><h2>9</h2></div></div></div>

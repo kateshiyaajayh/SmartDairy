@@ -60,7 +60,7 @@
                             <i class="bi bi-person-circle"></i>
 
                             <span>
-                                Admin
+                                <?= htmlspecialchars($_SESSION["admin_name"] ?? "Admin", ENT_QUOTES, "UTF-8") ?>
                             </span>
 
                         </button>

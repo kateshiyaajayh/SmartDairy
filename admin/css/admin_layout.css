@@ -65,6 +65,13 @@
   font-size: 20px;
 }
 
+.summary-card > .summary-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
 .summary-icon > i {
   width: 24px;
   height: 24px;
